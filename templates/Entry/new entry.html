@@ -1,0 +1,16 @@
+{% extends 'Entry/base.html' %}
+{% block new-entry %}
+    <h1 class="cover-heading"> New HeartPad Entry </h1>
+    <form>
+    <div class="form-control">
+        <label for="entry-title">Title</label>
+        <input class="form-control" type="text" id="entry-title">
+    </div>
+    <div class="form-control">
+        <label for="entry-text">Entry</label>
+        <textarea class="form-control" id="entry-title" rows="5"></textarea>
+    </div>
+        <button class="btn-default" type="submit">Submit</button>
+
+    </form>
+{% endblock %}
